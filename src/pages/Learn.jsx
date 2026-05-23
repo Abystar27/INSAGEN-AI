@@ -47,10 +47,10 @@ const items = [
     title: 'Ethical responsibilities of content creators',
     body: 'Always disclose paid partnerships and sponsored content clearly using #ad or #sponsored — this is both ethical and legally required. Only use music and images you have rights to. Credit other creators when referencing their work. Be transparent about AI-generated content. Never use misleading before-and-after images or false product claims.',
   },
-  {
-    title: 'Understanding your users — the AIEOU framework',
-    body: 'Activities: generating posts, captions and hashtags, browsing templates, building brand kits. Environment: fast-paced social media world demanding quick, high-quality content. Interactions: forms, AI tools, template pickers, preview and download buttons. Objects: templates, captions, hashtags, colour palettes, font pairings. Users: creators, small businesses, influencers, students, and beginners.',
-  },
+  // {
+  //   title: 'Understanding your users — the AIEOU framework',
+  //   body: 'Activities: generating posts, captions and hashtags, browsing templates, building brand kits. Environment: fast-paced social media world demanding quick, high-quality content. Interactions: forms, AI tools, template pickers, preview and download buttons. Objects: templates, captions, hashtags, colour palettes, font pairings. Users: creators, small businesses, influencers, students, and beginners.',
+  // },
 ];
 
 export default function Learn() {
