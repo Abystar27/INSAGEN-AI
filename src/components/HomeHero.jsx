@@ -19,12 +19,22 @@ export default function HomeHero() {
             hit generate.
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
-            <Link
+            {/* <Link
               to="/generate/post"
-              className="px-5 py-2.5 rounded-full bg-neonPink text-black font-medium shadow-neon hover:scale-105 active:scale-95 transition"
+              className="px-5 py-2.5 rounded-full text-black font-medium hover:scale-105 active:scale-95 transition btn-primary"
             >
               Start Generating
+            </Link> */}
+
+            <Link
+             to="/generate/post"
+              className="px-5 py-2.5 rounded-full font-medium hover:scale-105 active:scale-95 transition"
+              style={{ background: '#FF2D8A', color: '#000', boxShadow: '0 0 20px rgba(255,45,138,0.5)' }}
+              >
+               Start Generating
             </Link>
+
+
             <Link
               to="/generate/carousel"
               className="px-5 py-2.5 rounded-full border border-white/30 bg-black/40 text-white/90 hover:bg-white/10 transition"
